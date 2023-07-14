@@ -21,20 +21,24 @@
     <div id="download-button">
       <a href="CeD0.3.exe" download>
         <button>Scarica CeD</button>
-        <span id="p1">CeD scaricati: <span id="counter">0</span></span>
+        <p id="counter">0</p>
         <script>
-          document.getElementById("download-button").addEventListener("click", function() {
-              // Chiamata AJAX al file PHP per incrementare il contatore
-              var xhr = new XMLHttpRequest();
-              xhr.onreadystatechange = function() {
-                  if (xhr.readyState === 4 && xhr.status === 200) {
-                      document.getElementById("counter").textContent = xhr.responseText;
-                  }
-              };
-              xhr.open("GET", "incrementa_counter.php", true);
-              xhr.send();
+          // Ottenere il riferimento al pulsante di download e al contatore
+          var downloadButton = document.getElementById("download-button");
+          var counter = document.getElementById("counter");
+        
+          // Inizializzare il contatore
+          var downloadCount = 0;
+        
+          // Aggiungere un gestore di eventi al clic del pulsante di download
+          downloadButton.addEventListener("click", function() {
+            // Incrementare il contatore
+            downloadCount++;
+        
+            // Aggiornare il testo del contatore
+            counter.textContent = downloadCount;
           });
-      </script>
+        </script>
       </a>
     </div>
   </div>
