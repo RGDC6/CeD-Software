@@ -37,15 +37,14 @@ body {
   padding: 10px;
   background-color: rgb(142, 132, 187);
   overflow: hidden;
-  margin-right: 300px; /* Modifica qui */
-  margin-left: 200px;
+  margin-right: 500px; /* Modifica qui */
 }
 
 #download-button {
   display: flex;
   justify-content: flex-end; /* Modifica qui */
   align-items: center;
-  margin-right: 255px;
+  margin: 255px;
 }
 
 #download-button button {
