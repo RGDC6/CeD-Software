@@ -34,7 +34,6 @@ body {
 
 #google-docs-container {
   width: 1000%;
-  max-width: 10000px;
   height: auto;
   border: 3px solid #4a3d91;
   border-radius: 15px;
