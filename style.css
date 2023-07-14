@@ -37,7 +37,8 @@ body {
   padding: 10px;
   background-color: rgb(142, 132, 187);
   overflow: hidden;
-  margin-right: 500px; /* Modifica qui */
+  margin-right: 300px; /* Modifica qui */
+  margin-left: 200px;
 }
 
 #download-button {
