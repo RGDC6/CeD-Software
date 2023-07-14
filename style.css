@@ -64,7 +64,7 @@ body {
 }
 
 #p1{
-  text-transform: none;
-  text-decoration: none;
   text-decoration-color: #4a3d91;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
