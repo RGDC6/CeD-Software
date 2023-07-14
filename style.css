@@ -62,3 +62,9 @@ body {
   padding: 70px 120px;
 
 }
+
+#p1{
+  text-transform: none;
+  text-decoration: none;
+  text-decoration-color: #4a3d91;
+}
