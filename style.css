@@ -44,7 +44,7 @@ body {
   display: flex;
   justify-content: flex-end; /* Modifica qui */
   align-items: center;
-  margin: 255px;
+  margin-right: 255px;
 }
 
 #download-button button {
