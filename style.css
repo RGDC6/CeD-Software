@@ -21,8 +21,7 @@ body {
 
 #content-container {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-between; /* Modifica qui */
   align-items: center;
   height: 100vh;
   z-index: 1;
@@ -38,12 +37,12 @@ body {
   padding: 10px;
   background-color: rgb(142, 132, 187);
   overflow: hidden;
-  margin: 20px;
+  margin-right: 20px; /* Modifica qui */
 }
 
 #download-button {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end; /* Modifica qui */
   align-items: center;
   margin: 20px;
 }
