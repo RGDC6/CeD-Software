@@ -21,36 +21,40 @@ body {
 
 #content-container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   height: 100vh;
   z-index: 1;
+  padding: 20px;
 }
 
 #google-docs-container {
-  width: 800px;
-  height: 800px;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
   border: 3px solid #4a3d91;
   border-radius: 15px;
   padding: 10px;
   background-color: rgb(142, 132, 187);
   overflow: hidden;
-  margin-left: 150px;
+  margin: 20px;
 }
 
 #download-button {
   display: flex;
+  justify-content: center;
   align-items: center;
-  margin-right: 255px;
+  margin: 20px;
 }
 
 #download-button button {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   color: #4a3d91;
-  font-size: xx-large;
+  font-size: large;
   background-color: rgb(142, 132, 187);
   border: 3px solid #4a3d91;
   border-radius: 15px;
-  padding: 70px 120px;
+  padding: 20px 40px;
 }
